@@ -1,0 +1,52 @@
+.body3-main-div{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    width: 28vw;
+    height: 335px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    /* margin-left: 2rem; */
+    color: white;
+    background: rgb(70, 69, 69);
+    transition: transform .5s;
+}
+
+.body3-main-div:hover{
+    background: white;
+    transform: scale(1.1);
+}
+/* .body3-main-div:hover::after{
+    content: "Change Text";
+    color: black;
+} */
+.size-div{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-div{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: end;
+}
+.size-div p{
+    font-size: 3vw;
+}
+
+.title-div p{
+    font-size: 1vw;
+}
+
+.main-section{
+    /* border: 2px solid brown; */
+    background: black;
+    display: flex; 
+    justify-content: space-around;
+}
+.new-div{
+    height: 670px;
+}

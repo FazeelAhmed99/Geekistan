@@ -1,0 +1,50 @@
+.body-main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10rem;
+    /* border: 2px solid red; */
+}
+
+.headings h1{
+    font-size: 6vw;
+    color: white;
+}
+
+.headings h3{
+    font-size: 2vw;
+    margin: 1.8rem;
+    color: white;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    margin-top: 0.8rem;
+    display: flex;
+}
+
+.btn-div{
+    width: 15vw;
+    font-size: 1.5vw;
+    padding: 1rem;
+    border-radius: 27px;
+    margin: 2rem;
+    outline: none;
+    border: none;
+}
+
+.btn-1{
+    background: red;
+    color: white;
+}
+.btn-2:hover{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}

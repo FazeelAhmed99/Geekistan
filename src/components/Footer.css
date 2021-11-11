@@ -1,0 +1,76 @@
+.footer-main-div{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    background: black;
+    height: 80vh;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7rem;
+    /* border: 2px solid red; */
+}
+
+.copyright{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.div-1{
+    /* border: 2px solid green; */
+    padding-left: 4rem;
+}
+#para-1{
+    font-weight: 500;
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 2rem;
+}
+.this-para{
+    font-weight: 500;
+    color: wheat;
+    font-size: 1.5vw;
+}
+
+.new-this-para{
+    font-weight: 500;
+    color: wheat;
+    font-size: 1.5vw;
+}
+.div-2{
+    /* border: 2px solid greenyellow; */
+}
+.div-3{
+    /* border: 2px solid orangered; */
+}
+.div-4{
+    /* border: 2px solid rgb(37, 37, 37); */
+}
+
+
+.bus-tag{
+    font-weight: 500;
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 2rem;
+}
+
+.con-tag{
+    font-weight: 500;
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 2rem;
+}
+.para-9{
+    font-weight: 500;
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 2rem;
+}
+.copy-para{
+    color: white;
+    font-size: 1.5vw;
+}

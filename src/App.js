@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Body1 from './components/Body1';
+import Body3 from './components/Body3';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Body2 from './components/Body2';
+import Pexels from './Pexels.mp4'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+    <video className="video" autoPlay muted loop>
+      <source src={Pexels} type="video/mp4"/>
+    </video>
+    <Header/>
+    <Body1/>
+    <Body2 />
+    <Body3/>
+    <Contact/>
+    <Footer/>
+    
+    </>
   );
 }
 
