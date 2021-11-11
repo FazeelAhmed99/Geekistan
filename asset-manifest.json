@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Geekistan/static/css/main.7ce06232.chunk.css",
+    "main.js": "/Geekistan/static/js/main.b76aa64f.chunk.js",
+    "main.js.map": "/Geekistan/static/js/main.b76aa64f.chunk.js.map",
+    "runtime-main.js": "/Geekistan/static/js/runtime-main.f75d3fd0.js",
+    "runtime-main.js.map": "/Geekistan/static/js/runtime-main.f75d3fd0.js.map",
+    "static/js/2.a0f317f9.chunk.js": "/Geekistan/static/js/2.a0f317f9.chunk.js",
+    "static/js/2.a0f317f9.chunk.js.map": "/Geekistan/static/js/2.a0f317f9.chunk.js.map",
+    "static/js/3.8f64150d.chunk.js": "/Geekistan/static/js/3.8f64150d.chunk.js",
+    "static/js/3.8f64150d.chunk.js.map": "/Geekistan/static/js/3.8f64150d.chunk.js.map",
+    "index.html": "/Geekistan/index.html",
+    "static/css/main.7ce06232.chunk.css.map": "/Geekistan/static/css/main.7ce06232.chunk.css.map",
+    "static/js/2.a0f317f9.chunk.js.LICENSE.txt": "/Geekistan/static/js/2.a0f317f9.chunk.js.LICENSE.txt",
+    "static/media/Pexels.22acab75.mp4": "/Geekistan/static/media/Pexels.22acab75.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f75d3fd0.js",
+    "static/js/2.a0f317f9.chunk.js",
+    "static/css/main.7ce06232.chunk.css",
+    "static/js/main.b76aa64f.chunk.js"
+  ]
+}
