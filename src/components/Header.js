@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css';
-import newloop from '../images/newloop.png'
+import newloop from './images/newloop.png'
 
 
 function Header() {
