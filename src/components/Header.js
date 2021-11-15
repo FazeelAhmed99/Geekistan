@@ -9,7 +9,11 @@ function Header() {
 
             <div className="nav-bar">
                 <div className="left-nav">
+<<<<<<< HEAD
                     <img src={require('./assets/newloop.png').default } alt="image not load" />
+=======
+                    <img src={require('./images/newloop.png').default } alt="image not load" />
+>>>>>>> 3876424699795cd4f384efe107dba781ef6a5605
                     <h4>Infinite Loopers</h4>
                 </div>
                 <div className="right-nav">
