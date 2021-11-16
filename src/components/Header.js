@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-// import newloop from './images/newloop.png';
+import newloop from '../assets/newloop.png';
 
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
 
             <div className="nav-bar">
                 <div className="left-nav">
-                    <img src={require('./assets/newloop.png').default } alt="image not load" />
+                    <img src={newloop} alt="img not found" />
                     <h4>Infinite Loopers</h4>
                 </div>
                 <div className="right-nav">
