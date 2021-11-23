@@ -15,11 +15,13 @@
     /* position: sticky; */
     top: 0;
     z-index: 2;
+    border: 2px solid red;
   }
   
   .right-nav{
     margin-top: 1.7rem;
     margin-right: 5rem;
+    border: 2px solid white;
   }
   .right-nav li{
     list-style-type: none;
@@ -27,12 +29,13 @@
     padding: 1.8rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: white;
+    color: red;
   }
   
   .left-nav{
     width: 8rem;
     margin-left: 5rem;
+    border: 2px solid green;
   }
   .left-nav img{
     width: 70%;
@@ -40,4 +43,43 @@
   .left-nav h4{
     color: white;
   }
+
+  #bars{
+    font-size: 1.5rem;
+    /* float: right; */
+    display: none;
+  }
   
+  @media screen and (max-width: 1119px) {
+    .nav-bar {
+      background-color: white;
+    }
+    .left-nav h4{
+      color: black;
+    }
+    .right-nav li{
+      color: black;
+    }
+  }
+
+  @media screen and (max-width: 971px) {
+    #bars{
+      display: inline;
+      margin-left: 40rem;
+    }  
+    .nav-bar{
+      flex-direction: column;
+    }
+    .left-nav{
+      width: 100%;
+    }
+    .left-nav img{
+      width: 10%;
+    }
+    .right-nav{
+      transition: all .5s;
+    }
+    #bars:checked ~ .right-nav{
+      left: 0;
+    }
+  }

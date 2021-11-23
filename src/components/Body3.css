@@ -1,3 +1,57 @@
+.upper-main-div{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 2px solid green;
+    color: white;
+    /* align-items: center; */
+}
+.blog-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word;
+    text-align: center;
+    width: 50%;
+    align-self: center;
+    border: 2px solid purple;
+}
+.blog-div h5{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+.blog-div hr{
+    /* color: red; */
+    border: 1px solid red;
+    width: 7%;
+    /* margin-top: 1rem; */
+}
+
+#hr1{
+    width: 3%;
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+}
+
+#hr2{
+    margin-bottom: 2rem;
+}
+
+.li-div{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid yellow;
+}
+.li-div li{
+    list-style-type: none;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .body3-main-div{
     display: flex;
     flex-direction: column;
@@ -16,10 +70,13 @@
     background: white;
     transform: scale(1.1);
 }
-/* .body3-main-div:hover::after{
+/* #cup:hover::after{
     content: "Change Text";
     color: black;
-} */
+    /* text-align: center;
+    display: flex;
+    justify-content: center;
+} */ 
 .size-div{
     /* border: 2px solid red; */
     height: 100%;
@@ -42,11 +99,68 @@
 }
 
 .main-section{
-    /* border: 2px solid brown; */
+    border: 2px solid brown;
     background: black;
     display: flex; 
     justify-content: space-around;
+    /* word-wrap: break-word; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, 0rem); */
 }
 .new-div{
     height: 670px;
+}
+
+.cart-div1-small:hover::after{
+
+    content: "Paper cup mockup";
+    color: black;
+
+}
+
+.cart-div1{
+    border: 1px solid white;
+}
+.cart-div2{
+    border: 1px solid green;
+}
+
+.cart-div3{
+    border: 1px solid yellow;
+}
+
+@media screen and (max-width: 600px) {
+    html{
+        font-size: 10px;
+    }
+    .blog-div{
+        width: 90%;
+    }
+    .main-section{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cart-div1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .body3-main-div{
+        width: 90%;
+    }
+    .cart-div2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cart-div3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
